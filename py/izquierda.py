@@ -5,7 +5,7 @@ Gp 11: 0 |  Gp 16: 0
 Gp 15: 0 |  Gp 18: 1
 """
 import RPi.GPIO as GPIO
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 GPIO.setup(11,GPIO.OUT)#Motor1
 GPIO.setup(15,GPIO.OUT)
 
